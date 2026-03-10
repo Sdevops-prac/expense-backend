@@ -1,0 +1,13 @@
+name: learn-github-actions
+run-name: Learning github actions
+on: [push]
+jobs:
+  checks-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install
+
