@@ -1,0 +1,10 @@
+name: Release_tags
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  checks-bats-version:
+    runs-on: self-hosted
+    steps:
+      - run: env
