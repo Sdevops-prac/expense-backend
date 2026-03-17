@@ -7,4 +7,4 @@ jobs:
   checks-bats-version:
     runs-on: self-hosted
     steps:
-      - run: ls
+      - run: env
