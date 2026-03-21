@@ -4,5 +4,5 @@ on:
     branches:
       - 'XPNS-*'
 jobs:
-  CI_Steps:
+  call-workflow:
     uses: Sdevops-prac/github-actions/.github/workflows/Developer_Branch_CI.yml@main
