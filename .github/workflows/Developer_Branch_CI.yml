@@ -4,5 +4,5 @@ on:
     branches:
       - 'XPNS-*'
 jobs:
-  call-workflow:
+  CI_Steps:
     uses: SpandanaThanuku/github-actions/.github/workflows/Developer_Branch_CI.yml@main
