@@ -5,19 +5,4 @@ on:
       - 'XPNS-*'
 jobs:
   CI_Steps:
-    runs-on: self-hosted
-    steps:
-      - name: checkout
-        uses: actions/checkout@v4
-
-      - name: Unit Tests
-        run: echo Unit Tests
-
-      - name: Integration Tests
-        run: echo Integration Tests
-
-      - name: Code Quality
-        run: echo Code Quality
-
-
-
+    uses: Sdevops-prac/github-actions/.github/workflows/Developer_Branch_CI.yml@main
