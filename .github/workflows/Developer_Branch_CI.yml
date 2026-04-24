@@ -5,4 +5,4 @@ on:
       - 'XPNS-*'
 jobs:
   CI_Steps:
-    uses: SpandanaThanuku/github-actions/.github/workflows/Developer_Branch_CI.yml@main
+    uses: Sdevops-prac/github-actions/.github/workflows/Developer_Branch_CI.yml@main
