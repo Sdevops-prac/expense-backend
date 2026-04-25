@@ -6,7 +6,5 @@ on:
 jobs:
   CI_Steps:
     uses: Sdevops-prac/github-actions/.github/workflows/Developer_Branch_CI.yml@main
-    secrets: inherit
-
-
+    secrets : inherit
 
