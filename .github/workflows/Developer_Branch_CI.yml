@@ -6,7 +6,6 @@ on:
 jobs:
   CI_Steps:
     uses: SpandanaThanuku/github-actions/.github/workflows/Developer_Branch_CI.yml@main
-    secrets:
-      SONAR_USER: ${{ secrets.SONAR_USER }}
-      SONAR_PASS: ${{ secrets.SONAR_PASS }}
+    secrets: inherit
+
 
