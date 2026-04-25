@@ -5,8 +5,8 @@ on:
       - 'XPNS-*'
 
 
-env:
-  service_name: expense-backend
+#env:
+  #service_name: expense-backend
 
 
 jobs:
