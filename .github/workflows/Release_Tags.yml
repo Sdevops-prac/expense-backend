@@ -4,10 +4,12 @@ on:
     tags:
       - 'v*'
 
-env:
-  service_name: expense_backend
+#env:
+#  service_name: expense_backend
 
 
 jobs:
   CI_Steps:
     uses: Sdevops-prac/github-actions/.github/workflows/Release_tags.yml@main
+    with:
+      service_name: expense-backend
