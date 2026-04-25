@@ -5,7 +5,7 @@ on:
       - 'v*'
 
 #env:
-#  service_name: expense_backend
+#  service_name: expense-backend
 
 
 jobs:
