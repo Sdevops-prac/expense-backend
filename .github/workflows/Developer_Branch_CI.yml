@@ -3,16 +3,10 @@ on:
   push:
     branches:
       - 'XPNS-*'
-
-
-#env:
-  #service_name: expense-backend
-
-
+env:
+  service_name: expense_backend
 jobs:
   CI_Steps:
     uses: Sdevops-prac/github-actions/.github/workflows/Developer_Branch_CI.yml@main
-    secrets: inherit
-    with:
-      service_name: expense-backend
+    secrets : inherit
 
